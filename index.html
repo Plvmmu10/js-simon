@@ -14,9 +14,27 @@
     <title>Simon Says</title>
 </head>
 <body>
+   
+    <div class="wrapper w-50 m-auto text-center py-5">
+        <h1>Osserva attentamente i numeri e ricordali! Hai 15 secondi di tempo</h1>
+        <h3 class="fst-italic">Premi il pulsante quando sei pronto</h3>
+        <button class="btn btn-primary">Genera i numeri</button>
+    </div>
+    
+    <div id="numbers" class="text-center">
+        
+    </div>
 
-
-
+    <div id="userBox" class="text-center invisible">
+        <input type="text" placeholder="Inserisci i numeri" id="numberInput">
+        <div>
+            <button id="checkResult" class="btn btn-warning my-2">Gioca</button>
+            <div id="result"></div>
+        </div>
+        
+    </div>
+    
+    
     <script src="./js/utility.js"></script>
     <script src="./js/script.js"></script>
 </body>
